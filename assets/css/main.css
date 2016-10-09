@@ -1,0 +1,211 @@
+/*==========  Site  ==========*/
+html,body {font-family: 'Lato', sans-serif; color: #ffffff; left: auto !important; overflow: auto;}
+canvas {position: absolute; width: 100%; height: 920px; top: 0; right: 0; left: 0; bottom: 0;}
+
+/* menu */
+.navmenu-fixed-right {left: auto !important;}
+.navbar-toggle {float: right;margin-right:15px;}
+.navmenu {width: 245px;}
+.navbar-toggle {display: block; /* force showing the toggle */}
+
+/*Topo*/
+.top-home {background-image: radial-gradient(circle at 92% 69%, #55d49d, #60d25e); background-position: center top; height: auto;}
+.top-home nav {margin-top: 10px;}
+.top-home .logo {margin-top: 10px; margin-left: 9px;}
+.top-home h1 span {font-weight: 700;}
+.top-home h1 {font-weight: 300; font-size: 34px; margin-top: 50px;}
+.top-home p {font-weight: 300; font-size: 16px; margin-top: 15px; margin-bottom: 50px;}
+.top-home .ilustra {margin-bottom: 70px;}
+
+/*Logos*/
+.logos { border-bottom: 1px solid #C8C8C8; opacity: 0.4; height: 100px;}
+.logos-img {margin-top: 25px;}
+.walmart-logo {margin-top: 15px; right: 7px; position: relative;}
+.monica-logo {margin-top: 5px;}
+
+/*Titulo portfa*/
+.chamada {padding-top: 30px;}
+.chamada .titulo-portifa h2 {font-size: 34px; font-weight: 100; color: #353535;}
+.chamada .titulo-portifa h4 {font-size: 18px; font-weight: 300; color: #ABAEB5;}
+
+/*Tv Cultura*/
+.tv-cultura {padding-top: 30px; padding-bottom: 50px;}
+.conteudo-projetos h3 {font-size: 26px; font-weight: 300; color: #6ABE45;}
+.conteudo-projetos p {font-weight: 300; font-size: 14px; color: #ABAEB5;}
+.botao p.calltoaction {font-weight: 700; font-size: 16px; color: #ABAEB5;}
+.botao a:hover {text-decoration: none;}
+.botao span { display: block; width:50px; height: 2px; background: #ABB4C5; float: left; position: relative; top: 12px; margin-right: 20px;}
+
+/*Bolso*/
+.bolso {padding-top: 50px; padding-bottom: 50px; background: #37C78D;}
+.bolso .conteudo-projetos h3 {color: #fff; }
+.bolso .conteudo-projetos p {color: #fff;}
+.bolso .botao p.calltoaction {color: #fff;}
+.bolso .botao span {background: #fff;}
+.img-bolso {width: 200px; height: 383px;}
+
+/*Brasil*/
+.brasil {padding-top: 50px;}
+.brasil .conteudo-projetos h3 {color: #0082BB;}
+
+/*Turma da Monica*/
+.monica {padding-top: 20px; padding-bottom: 20px;}
+.box {width: auto; height: auto; background-color: #F5E812; border-top: 10px solid #EADE12; padding: 10px 20px 20px 20px;}
+.monica .conteudo-projetos h3 {color: #353535; }
+.monica .conteudo-projetos p {color: #353535;}
+.monica .botao {margin-bottom: 30px;}
+.monica .botao p.calltoaction {color: #353535;}
+.monica .botao span {background: #353535;}
+
+/*ITS*/
+.its {padding-top: 20px; padding-bottom: 20px;}
+.its .box {background-color: #009ACB; border-top: 10px solid #008EBB;}
+.its .conteudo-projetos h3 {color: #fff;}
+.its .conteudo-projetos p {color: #fff;}
+.its .botao {margin-bottom: 30px;}
+.its .botao p.calltoaction {color: #fff;}
+.its .botao span {background: #fff;}
+
+/*Landscape*/
+.landscape {padding-top: 20px; padding-bottom: 20px;}
+.landscape .box {background-color: #343434; border-top: 10px solid #202020;}
+.landscape .conteudo-projetos h3 {color: #fff;}
+.landscape .conteudo-projetos p {color: #fff;}
+.landscape .botao {margin-bottom: 30px;}
+.landscape .botao p.calltoaction {color: #fff;}
+.landscape .botao span {background: #fff;}
+
+/*Walmart*/
+.walmart {padding-top: 20px; padding-bottom: 20px;}
+.walmart .box {background-color: #1A75CF; border-top: 10px solid #1767B6;}
+.walmart .conteudo-projetos h3 {color: #fff;}
+.walmart .conteudo-projetos p {color: #fff;}
+.walmart .botao {margin-bottom: 30px;}
+.walmart .botao p.calltoaction {color: #fff;}
+.walmart .botao span {background: #fff;}
+
+/*Final*/
+.final-home {padding-top: 20px; padding-bottom: 10px;}
+.home-perfil {background-color: #55D49D; padding: 20px;}
+.home-falar {background-color: #60D25E; padding: 20px;}
+.final-home h4 {color: #353535; font-size: 24px; font-weight: 300;}
+.final-home .botao p.calltoaction {color: #fff;}
+.final-home .botao span {background: #fff;}
+.final-home .tj {color: #ABAEB5; padding-top: 20px;}
+.final-home p {font-weight: 300;}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Menu hamburger  ==========*/
+
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 55px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  right: 10px;
+  height: 3px;
+  background: white;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -10px;
+}
+
+.c-hamburger span::after {
+  bottom: -10px;
+}
+
+
+.c-hamburger--htra span {
+  transition: transform 0.3s;
+}
+
+.c-hamburger--htra span::before {
+  transform-origin: top left;
+  transition: transform 0.3s, width 0.3s, top 0.3s;
+}
+
+.c-hamburger--htra span::after {
+  transform-origin: bottom left;
+  transition: transform 0.3s, width 0.3s, bottom 0.3s;
+}
+
+/* active state, i.e. menu open */
+
+.c-hamburger--htra.is-active span {
+  transform: rotate(180deg);
+}
+
+.c-hamburger--htra.is-active span::before,
+.c-hamburger--htra.is-active span::after {
+  width: 50%;
+}
+
+.c-hamburger--htra.is-active span::before {
+  top: 0;
+  transform: translateX(-4px) translateY(1px) rotate(-45deg);
+}
+
+.c-hamburger--htra.is-active span::after {
+  bottom: 0;
+  transform: translateX(-4px) translateY(-1px) rotate(45deg);
+}
